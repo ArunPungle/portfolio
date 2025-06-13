@@ -32,13 +32,13 @@ const Projects = () => {
       <Navbar />
       <section
         id="projects"
-        className="min-h-screen pt-32 px-6 sm:px-10 lg:px-20 bg-gradient-to-br from-white to-purple-50"
+        className="min-h-screen pt-32 px-6 sm:px-10 lg:px-20 bg-gradient-to-br from-[#0f0f0f] via-[#1c1c1e] to-[#2c2c2e] text-white"
       >
         <div className="max-w-7xl mx-auto text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-orange-400 mb-4">
             My Projects
           </h2>
-          <p className="text-gray-600 text-lg sm:text-xl">
+          <p className="text-gray-300 text-lg sm:text-xl">
             Here's a glimpse of the work I've built using modern web
             technologies.
           </p>
@@ -52,17 +52,17 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-white rounded-xl shadow-lg p-6 border border-gray-200 hover:shadow-2xl transition-shadow"
+              className="bg-[#1e1e1f] rounded-xl shadow-lg p-6 border border-gray-700 hover:shadow-orange-500/30 transition-shadow"
             >
-              <h3 className="text-xl font-semibold text-purple-700 mb-2">
+              <h3 className="text-xl font-semibold text-orange-400 mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-700 mb-3">{project.description}</p>
+              <p className="text-gray-400 mb-3">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, i) => (
                   <span
                     key={i}
-                    className="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded"
+                    className="text-sm bg-orange-100 text-orange-700 px-2 py-1 rounded"
                   >
                     {tech}
                   </span>
@@ -70,7 +70,7 @@ const Projects = () => {
               </div>
               <a
                 href={project.link}
-                className="text-purple-600 hover:underline text-sm font-medium"
+                className="text-orange-400 hover:underline text-sm font-medium"
                 target="_blank"
                 rel="noopener noreferrer"
               >
