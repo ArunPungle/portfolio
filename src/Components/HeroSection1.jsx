@@ -87,7 +87,7 @@ const HeroSection1 = () => {
                 onClick={() => setShowResume(true)}
                 className="inline-flex items-center gap-2 border border-orange-400 text-orange-400 px-6 py-3 rounded-xl font-medium hover:bg-orange-500 hover:text-white transition-all"
               >
-                Show Resume <Download size={18} />
+                View Resume <Download size={18} />
               </button>
             </div>
           </motion.div>

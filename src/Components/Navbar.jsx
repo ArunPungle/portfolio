@@ -11,7 +11,6 @@ export default function Navbar() {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
   ];
 
   // Handle scroll detection
@@ -34,7 +33,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6 lg:px-28 h-16">
         {/* Logo */}
         <div
-          className={`flex items-center gap-2 font-bold text-xl cursor-pointer ${
+          className={`flex items-center gap-2 font-bold text-2xl cursor-pointer ${
             isScrolled ? "text-white" : "text-orange-400"
           }`}
         >

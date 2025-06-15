@@ -12,7 +12,7 @@ const skills = [
   },
   { name: "React Js", icon: <FaReact size={40} className="text-[#61DBFB]" /> },
   {
-    name: "TailwindCss",
+    name: "Tailwind Css",
     icon: <SiTailwindcss size={40} className="text-[#38BDF8]" />,
   },
   { name: "My SQL", icon: <SiMysql size={40} className="text-[#00758F]" /> },
