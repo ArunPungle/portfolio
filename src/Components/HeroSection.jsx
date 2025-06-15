@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import ArunImage from "../Images/arun.png";
 import Navbar from "./Navbar";
 
 const AboutSection = () => {
+
   return (
     <div>
       <Navbar />
@@ -30,6 +31,7 @@ const AboutSection = () => {
               backend APIs and elegant user interfaces. I work with technologies
               like <strong className="text-orange-300">Java</strong>,{" "}
               <strong className="text-orange-300">Spring Boot</strong>,{" "}
+              <strong className="text-orange-300">My SQL</strong>,{" "}
               <strong className="text-orange-300">React</strong>, and{" "}
               <strong className="text-orange-300">Tailwind CSS</strong> to
               create clean, scalable, and intuitive applications.

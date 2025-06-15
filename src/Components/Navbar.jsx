@@ -9,6 +9,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
@@ -37,8 +38,8 @@ export default function Navbar() {
             isScrolled ? "text-white" : "text-orange-400"
           }`}
         >
-          <div className="w-3.5 h-3.5 bg-current rounded-full animate-ping" />
-          <span className="tracking-wider">Portfolio</span>
+          <div />
+          <span className="tracking-wider">ARUN PUNGLE</span>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -54,7 +55,7 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <div
-          className={`hidden md:flex items-center gap-10 ${
+          className={`hidden md:flex items-center gap-16 ${
             isScrolled ? "text-white" : "text-orange-300"
           }`}
         >
