@@ -46,7 +46,7 @@ const AboutSection = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="pt-4 flex gap-16 text-2xl text-white"
+              className="pt-4 flex gap-10 text-2xl text-white"
             >
               <a
                 href="https://www.linkedin.com/in/arun-pungle"

@@ -60,7 +60,7 @@ const Contactpage = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-4xl sm:text-5xl font-bold mb-6 text-center"
+            className="text-4xl sm:text-5xl font-bold mb-6 text-center text-orange-500"
           >
                         Get in Touch          {" "}
           </motion.h2>
@@ -73,8 +73,8 @@ const Contactpage = () => {
             className="text-center text-gray-300 mb-10 text-lg"
           >
                         I'd love to hear from you. Whether you have a question,
-                        a project idea, or just want to say hi — feel free to
-            reach out!          {" "}
+            a project idea, or just want to say hi — feel free to reach out!    
+                 {" "}
           </motion.p>
                    {" "}
           <motion.form

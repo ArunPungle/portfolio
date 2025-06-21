@@ -55,7 +55,7 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div
           className={`hidden md:flex items-center gap-16 ${
-            isScrolled ? "text-white" : "text-orange-300"
+            isScrolled ? "text-white" : "text-orange-400"
           }`}
         >
           {navLinks.map((link, index) => (
@@ -65,9 +65,9 @@ export default function Navbar() {
               onClick={() => setActiveLink(link.href)}
               className={`relative text-sm font-medium tracking-wide transition duration-200 ${
                 activeLink === link.href
-                  ? "text-yellow-300"
-                  : "hover:text-yellow-200"
-              } after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-yellow-300 after:transition-all ${
+                  ? "text-orange-400"
+                  : "hover:text-orange-400"
+              } after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-orange-400 after:transition-all ${
                 activeLink === link.href ? "after:w-full" : ""
               }`}
             >
@@ -78,10 +78,10 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="#getintouch"
+          href="#contact"
           className={`hidden md:inline-block text-sm font-medium px-5 py-2 rounded-md shadow-sm transition-all ${
             isScrolled
-              ? "bg-orange-400 text-black hover:bg-yellow-300"
+              ? "bg-orange-400 text-black hover:bg-orange-600"
               : "bg-orange-500 text-white hover:bg-orange-600"
           }`}
         >
@@ -103,8 +103,8 @@ export default function Navbar() {
                 }}
                 className={`block text-base font-medium ${
                   activeLink === link.href
-                    ? "text-yellow-300"
-                    : "hover:text-orange-300"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
                 }`}
               >
                 {link.name}
@@ -112,7 +112,7 @@ export default function Navbar() {
             ))}
             <a
               href="#getintouch"
-              className="block text-center bg-orange-500 text-white px-6 py-2.5 rounded-md hover:bg-yellow-400 text-sm font-medium transition-all hover:shadow-lg"
+              className="block text-center bg-orange-500 text-white px-6 py-2.5 rounded-md hover:bg-orange-700 text-sm font-medium transition-all hover:shadow-lg"
             >
               Get in touch
             </a>
