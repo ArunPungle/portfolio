@@ -51,7 +51,7 @@ const Contactpage = () => {
         bodyClassName="text-sm font-medium"
       />
            {" "}
-      <section id="contact" className="px-6 sm:px-10 lg:px-20 py-16">
+      <section id="contact" className="px-6 sm:px-10 lg:px-20 py-7">
                {" "}
         <div className="max-w-4xl mx-auto">
                    {" "}
@@ -60,9 +60,9 @@ const Contactpage = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-4xl sm:text-5xl font-bold mb-6 text-center text-orange-500"
+            className="text-4xl sm:text-5xl font-bold text-center text-orange-500"
           >
-                        Get in Touch          {" "}
+                 Get in Touch          {" "}
           </motion.h2>
                    {" "}
           <motion.p
@@ -72,9 +72,9 @@ const Contactpage = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-center text-gray-300 mb-10 text-lg"
           >
-                        I'd love to hear from you. Whether you have a question,
-            a project idea, or just want to say hi — feel free to reach out!    
-                 {" "}
+                 I'd love to hear from you. Whether you have a question, a
+            project idea, or just want to say hi feel free to reach out!        
+             {" "}
           </motion.p>
                    {" "}
           <motion.form

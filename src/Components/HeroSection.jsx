@@ -10,7 +10,7 @@ const AboutSection = () => {
       <Navbar />
       <section
         id="about"
-        className="relative min-h-screen flex items-center justify-center px-6 sm:px-10 lg:px-20 pt-32 overflow-hidden bg-gradient-to-br from-[#0f0f0f] via-[#1c1c1e] to-[#2c2c2e] text-white"
+        className="relative min-h-screen  pb-10 flex items-center justify-center px-6 sm:px-10 lg:px-20 pt-32 overflow-hidden bg-gradient-to-br from-[#0f0f0f] via-[#1c1c1e] to-[#2c2c2e] text-white"
       >
         <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center z-10">
           {/* Left Side - About Text */}

@@ -111,7 +111,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#getintouch"
+              href="#contact"
               className="block text-center bg-orange-500 text-white px-6 py-2.5 rounded-md hover:bg-orange-700 text-sm font-medium transition-all hover:shadow-lg"
             >
               Get in touch

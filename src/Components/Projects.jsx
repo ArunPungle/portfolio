@@ -32,7 +32,7 @@ const Projects = () => {
       <Navbar />
       <section
         id="projects"
-        className="min-h-screen pt-32 px-6 sm:px-10 lg:px-20 bg-gradient-to-br from-[#0f0f0f] via-[#1c1c1e] to-[#2c2c2e] text-white"
+        className="min-h-screen pt-32 px-6 pb-9 sm:px-10 lg:px-20 bg-gradient-to-br from-[#0f0f0f] via-[#1c1c1e] to-[#2c2c2e] text-white"
       >
         <div className="max-w-7xl mx-auto text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-orange-400 mb-4">
